@@ -1,0 +1,2 @@
+checkpoint,id_acc,ood_acc,total_acc,id_avg_loss,ood_avg_loss,total_avg_loss,id_avg_resp_len,ood_avg_resp_len,count_id,count_ood,count_total
+contextzoo_0.5zoo_0.5teacher_process_strict,0.1564453125,0.10128125,0.12579861111111112,0.0,0.0,0.0,139.24974609375,168.95209375,51200,64000,115200
