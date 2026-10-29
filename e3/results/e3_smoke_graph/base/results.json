@@ -1,0 +1,278 @@
+{
+  "files": {
+    "base_ood_generations.jsonl.graph_results.jsonl": {
+      "per_template": {
+        "crazy_zootopia": {
+          "per_op_pass_at_k": {
+            "15": {
+              "pass@1": 0.0,
+              "pass@2": 0.0,
+              "pass@4": 0.0
+            }
+          },
+          "per_op_pass_at_columns": {
+            "pass@1": {
+              "15": 0.0
+            },
+            "pass@2": {
+              "15": 0.0
+            },
+            "pass@4": {
+              "15": 0.0
+            }
+          },
+          "total_pass_at_k": {
+            "pass@1": 0.0,
+            "pass@2": 0.0,
+            "pass@4": 0.0
+          }
+        },
+        "movie_festival_awards": {
+          "per_op_pass_at_k": {
+            "15": {
+              "pass@1": 0.0,
+              "pass@2": 0.0,
+              "pass@4": 0.0
+            }
+          },
+          "per_op_pass_at_columns": {
+            "pass@1": {
+              "15": 0.0
+            },
+            "pass@2": {
+              "15": 0.0
+            },
+            "pass@4": {
+              "15": 0.0
+            }
+          },
+          "total_pass_at_k": {
+            "pass@1": 0.0,
+            "pass@2": 0.0,
+            "pass@4": 0.0
+          }
+        },
+        "teachers_in_school": {
+          "per_op_pass_at_k": {
+            "15": {
+              "pass@1": 0.0,
+              "pass@2": 0.0,
+              "pass@4": 0.0
+            }
+          },
+          "per_op_pass_at_columns": {
+            "pass@1": {
+              "15": 0.0
+            },
+            "pass@2": {
+              "15": 0.0
+            },
+            "pass@4": {
+              "15": 0.0
+            }
+          },
+          "total_pass_at_k": {
+            "pass@1": 0.0,
+            "pass@2": 0.0,
+            "pass@4": 0.0
+          }
+        }
+      },
+      "total": {
+        "per_op_pass_at_k": {
+          "15": {
+            "pass@1": 0.0,
+            "pass@2": 0.0,
+            "pass@4": 0.0
+          }
+        },
+        "per_op_pass_at_columns": {
+          "pass@1": {
+            "15": 0.0
+          },
+          "pass@2": {
+            "15": 0.0
+          },
+          "pass@4": {
+            "15": 0.0
+          }
+        },
+        "total_pass_at_k": {
+          "pass@1": 0.0,
+          "pass@2": 0.0,
+          "pass@4": 0.0
+        }
+      },
+      "ks": [
+        1,
+        2,
+        4
+      ],
+      "prompt_counts": {
+        "per_template": {
+          "crazy_zootopia": {
+            "per_op": {
+              "15": 82
+            },
+            "total": 82
+          },
+          "movie_festival_awards": {
+            "per_op": {
+              "15": 55
+            },
+            "total": 55
+          },
+          "teachers_in_school": {
+            "per_op": {
+              "15": 63
+            },
+            "total": 63
+          }
+        },
+        "total": {
+          "per_op": {
+            "15": 200
+          },
+          "total": 200
+        }
+      }
+    },
+    "base_id_generations.jsonl.graph_results.jsonl": {
+      "per_template": {
+        "crazy_zootopia": {
+          "per_op_pass_at_k": {
+            "11": {
+              "pass@1": 0.4927536231884058,
+              "pass@2": 0.5652173913043478,
+              "pass@4": 0.6811594202898551
+            }
+          },
+          "per_op_pass_at_columns": {
+            "pass@1": {
+              "11": 0.4927536231884058
+            },
+            "pass@2": {
+              "11": 0.5652173913043478
+            },
+            "pass@4": {
+              "11": 0.6811594202898551
+            }
+          },
+          "total_pass_at_k": {
+            "pass@1": 0.4927536231884058,
+            "pass@2": 0.5652173913043478,
+            "pass@4": 0.6811594202898551
+          }
+        },
+        "movie_festival_awards": {
+          "per_op_pass_at_k": {
+            "11": {
+              "pass@1": 0.47619047619047616,
+              "pass@2": 0.6031746031746031,
+              "pass@4": 0.6507936507936508
+            }
+          },
+          "per_op_pass_at_columns": {
+            "pass@1": {
+              "11": 0.47619047619047616
+            },
+            "pass@2": {
+              "11": 0.6031746031746031
+            },
+            "pass@4": {
+              "11": 0.6507936507936508
+            }
+          },
+          "total_pass_at_k": {
+            "pass@1": 0.47619047619047616,
+            "pass@2": 0.6031746031746031,
+            "pass@4": 0.6507936507936508
+          }
+        },
+        "teachers_in_school": {
+          "per_op_pass_at_k": {
+            "11": {
+              "pass@1": 0.47058823529411764,
+              "pass@2": 0.5441176470588235,
+              "pass@4": 0.6323529411764706
+            }
+          },
+          "per_op_pass_at_columns": {
+            "pass@1": {
+              "11": 0.47058823529411764
+            },
+            "pass@2": {
+              "11": 0.5441176470588235
+            },
+            "pass@4": {
+              "11": 0.6323529411764706
+            }
+          },
+          "total_pass_at_k": {
+            "pass@1": 0.47058823529411764,
+            "pass@2": 0.5441176470588235,
+            "pass@4": 0.6323529411764706
+          }
+        }
+      },
+      "total": {
+        "per_op_pass_at_k": {
+          "11": {
+            "pass@1": 0.48,
+            "pass@2": 0.57,
+            "pass@4": 0.655
+          }
+        },
+        "per_op_pass_at_columns": {
+          "pass@1": {
+            "11": 0.48
+          },
+          "pass@2": {
+            "11": 0.57
+          },
+          "pass@4": {
+            "11": 0.655
+          }
+        },
+        "total_pass_at_k": {
+          "pass@1": 0.48,
+          "pass@2": 0.57,
+          "pass@4": 0.655
+        }
+      },
+      "ks": [
+        1,
+        2,
+        4
+      ],
+      "prompt_counts": {
+        "per_template": {
+          "crazy_zootopia": {
+            "per_op": {
+              "11": 69
+            },
+            "total": 69
+          },
+          "movie_festival_awards": {
+            "per_op": {
+              "11": 63
+            },
+            "total": 63
+          },
+          "teachers_in_school": {
+            "per_op": {
+              "11": 68
+            },
+            "total": 68
+          }
+        },
+        "total": {
+          "per_op": {
+            "11": 200
+          },
+          "total": 200
+        }
+      }
+    }
+  }
+}

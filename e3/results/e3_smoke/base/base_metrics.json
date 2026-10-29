@@ -1,0 +1,295 @@
+{
+  "checkpoint": "base",
+  "id": {
+    "answer_accuracy": 0.84875,
+    "avg_response_len": 296.075,
+    "avg_loss": 0.0,
+    "count": 800,
+    "validation_metrics": {},
+    "pass_at_k": {
+      "pass@1": 0.84875,
+      "pass@2": 0.905,
+      "pass@4": 0.94
+    },
+    "per_op_pass_at_k": {
+      "11": {
+        "pass@1": 0.84875,
+        "pass@2": 0.905,
+        "pass@4": 0.94
+      }
+    },
+    "per_op_accuracy": {
+      "11": 0.84875
+    },
+    "per_op_avg_response_len": {
+      "11": 296.075
+    },
+    "per_op_avg_loss": {},
+    "per_op_length": {
+      "11": 296.075
+    },
+    "per_op_loss": {},
+    "per_template": {
+      "crazy_zootopia": {
+        "count": 276,
+        "correct": 235,
+        "answer_accuracy": 0.8514492753623188,
+        "avg_response_len": 290.19202898550725,
+        "resp_tokens_sum": 80093,
+        "pass_at_k": {
+          "pass@1": 0.8514492753623188,
+          "pass@2": 0.9251207729468599,
+          "pass@4": 0.9565217391304348
+        },
+        "per_op_pass_at_k": {
+          "11": {
+            "pass@1": 0.8514492753623188,
+            "pass@2": 0.9251207729468599,
+            "pass@4": 0.9565217391304348
+          }
+        }
+      },
+      "teachers_in_school": {
+        "count": 272,
+        "correct": 247,
+        "answer_accuracy": 0.9080882352941176,
+        "avg_response_len": 293.48161764705884,
+        "resp_tokens_sum": 79827,
+        "pass_at_k": {
+          "pass@1": 0.9080882352941176,
+          "pass@2": 0.9436274509803922,
+          "pass@4": 0.9558823529411765
+        },
+        "per_op_pass_at_k": {
+          "11": {
+            "pass@1": 0.9080882352941176,
+            "pass@2": 0.9436274509803922,
+            "pass@4": 0.9558823529411765
+          }
+        }
+      },
+      "movie_festival_awards": {
+        "count": 252,
+        "correct": 197,
+        "answer_accuracy": 0.7817460317460317,
+        "avg_response_len": 305.3174603174603,
+        "resp_tokens_sum": 76940,
+        "pass_at_k": {
+          "pass@1": 0.7817460317460317,
+          "pass@2": 0.8412698412698413,
+          "pass@4": 0.9047619047619048
+        },
+        "per_op_pass_at_k": {
+          "11": {
+            "pass@1": 0.7817460317460317,
+            "pass@2": 0.8412698412698413,
+            "pass@4": 0.9047619047619048
+          }
+        }
+      }
+    }
+  },
+  "ood": {
+    "answer_accuracy": 0.16625,
+    "avg_response_len": 281.6875,
+    "avg_loss": 0.0,
+    "count": 800,
+    "validation_metrics": {},
+    "pass_at_k": {
+      "pass@1": 0.16625,
+      "pass@2": 0.21166666666666667,
+      "pass@4": 0.255
+    },
+    "per_op_pass_at_k": {
+      "15": {
+        "pass@1": 0.16625,
+        "pass@2": 0.21166666666666667,
+        "pass@4": 0.255
+      }
+    },
+    "per_op_accuracy": {
+      "15": 0.16625
+    },
+    "per_op_avg_response_len": {
+      "15": 281.6875
+    },
+    "per_op_avg_loss": {},
+    "per_op_length": {
+      "15": 281.6875
+    },
+    "per_op_loss": {},
+    "per_template": {
+      "crazy_zootopia": {
+        "count": 328,
+        "correct": 72,
+        "answer_accuracy": 0.21951219512195122,
+        "avg_response_len": 278.2743902439024,
+        "resp_tokens_sum": 91274,
+        "pass_at_k": {
+          "pass@1": 0.21951219512195122,
+          "pass@2": 0.2703252032520325,
+          "pass@4": 0.3170731707317073
+        },
+        "per_op_pass_at_k": {
+          "15": {
+            "pass@1": 0.21951219512195122,
+            "pass@2": 0.2703252032520325,
+            "pass@4": 0.3170731707317073
+          }
+        }
+      },
+      "teachers_in_school": {
+        "count": 252,
+        "correct": 39,
+        "answer_accuracy": 0.15476190476190477,
+        "avg_response_len": 268.484126984127,
+        "resp_tokens_sum": 67658,
+        "pass_at_k": {
+          "pass@1": 0.15476190476190477,
+          "pass@2": 0.20899470899470898,
+          "pass@4": 0.25396825396825395
+        },
+        "per_op_pass_at_k": {
+          "15": {
+            "pass@1": 0.15476190476190477,
+            "pass@2": 0.20899470899470898,
+            "pass@4": 0.25396825396825395
+          }
+        }
+      },
+      "movie_festival_awards": {
+        "count": 220,
+        "correct": 22,
+        "answer_accuracy": 0.1,
+        "avg_response_len": 301.9,
+        "resp_tokens_sum": 66418,
+        "pass_at_k": {
+          "pass@1": 0.1,
+          "pass@2": 0.12727272727272726,
+          "pass@4": 0.16363636363636364
+        },
+        "per_op_pass_at_k": {
+          "15": {
+            "pass@1": 0.1,
+            "pass@2": 0.12727272727272726,
+            "pass@4": 0.16363636363636364
+          }
+        }
+      }
+    }
+  },
+  "total": {
+    "answer_accuracy": 0.5075,
+    "avg_loss": 0.0,
+    "count": 1600,
+    "validation_metrics": {
+      "id": {},
+      "ood": {}
+    },
+    "pass_at_k": {
+      "pass@1": 0.5075,
+      "pass@2": 0.5583333333333333,
+      "pass@4": 0.5975
+    },
+    "per_op_pass_at_k": {
+      "11": {
+        "pass@1": 0.84875,
+        "pass@2": 0.905,
+        "pass@4": 0.94
+      },
+      "15": {
+        "pass@1": 0.16625,
+        "pass@2": 0.21166666666666667,
+        "pass@4": 0.255
+      }
+    },
+    "per_op_accuracy": {
+      "11": 0.84875,
+      "15": 0.16625
+    },
+    "per_op_avg_response_len": {
+      "11": 296.075,
+      "15": 281.6875
+    },
+    "per_op_avg_loss": {},
+    "per_op_length": {
+      "11": 296.075,
+      "15": 281.6875
+    },
+    "per_op_loss": {},
+    "per_template": {
+      "crazy_zootopia": {
+        "count": 604,
+        "correct": 307,
+        "answer_accuracy": 0.5082781456953642,
+        "avg_response_len": 283.7201986754967,
+        "resp_tokens_sum": 171367,
+        "pass_at_k": {
+          "pass@1": 0.5082781456953642,
+          "pass@2": 0.5695364238410596,
+          "pass@4": 0.609271523178808
+        },
+        "per_op_pass_at_k": {
+          "11": {
+            "pass@1": 0.8514492753623188,
+            "pass@2": 0.9251207729468599,
+            "pass@4": 0.9565217391304348
+          },
+          "15": {
+            "pass@1": 0.21951219512195122,
+            "pass@2": 0.2703252032520325,
+            "pass@4": 0.3170731707317073
+          }
+        }
+      },
+      "teachers_in_school": {
+        "count": 524,
+        "correct": 286,
+        "answer_accuracy": 0.5458015267175572,
+        "avg_response_len": 281.45992366412213,
+        "resp_tokens_sum": 147485,
+        "pass_at_k": {
+          "pass@1": 0.5458015267175572,
+          "pass@2": 0.5903307888040712,
+          "pass@4": 0.6183206106870229
+        },
+        "per_op_pass_at_k": {
+          "11": {
+            "pass@1": 0.9080882352941176,
+            "pass@2": 0.9436274509803922,
+            "pass@4": 0.9558823529411765
+          },
+          "15": {
+            "pass@1": 0.15476190476190477,
+            "pass@2": 0.20899470899470898,
+            "pass@4": 0.25396825396825395
+          }
+        }
+      },
+      "movie_festival_awards": {
+        "count": 472,
+        "correct": 219,
+        "answer_accuracy": 0.4639830508474576,
+        "avg_response_len": 303.72457627118644,
+        "resp_tokens_sum": 143358,
+        "pass_at_k": {
+          "pass@1": 0.4639830508474576,
+          "pass@2": 0.5084745762711864,
+          "pass@4": 0.559322033898305
+        },
+        "per_op_pass_at_k": {
+          "11": {
+            "pass@1": 0.7817460317460317,
+            "pass@2": 0.8412698412698413,
+            "pass@4": 0.9047619047619048
+          },
+          "15": {
+            "pass@1": 0.1,
+            "pass@2": 0.12727272727272726,
+            "pass@4": 0.16363636363636364
+          }
+        }
+      }
+    }
+  }
+}

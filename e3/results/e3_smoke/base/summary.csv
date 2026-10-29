@@ -1,0 +1,2 @@
+checkpoint,id_acc,ood_acc,total_acc,id_avg_loss,ood_avg_loss,total_avg_loss,id_avg_resp_len,ood_avg_resp_len,count_id,count_ood,count_total
+base,0.84875,0.16625,0.5075,0.0,0.0,0.0,296.075,281.6875,800,800,1600

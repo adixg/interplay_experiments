@@ -1,0 +1,5 @@
+checkpoint,op,metric,pass@1,pass@2,pass@4,mean_resp_tokens,truncated_share
+base,11,strict,0.4900,0.5708,0.6550,296,0.0000
+base,11,answer_only,0.8488,0.9050,0.9400,296,0.0000
+base,15,strict,0.0000,0.0000,0.0000,282,0.0000
+base,15,answer_only,0.1663,0.2117,0.2550,282,0.0000

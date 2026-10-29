@@ -1,0 +1,5 @@
+band,k,checkpoint,strict,ci_lo,ci_hi,answer_only,diff_vs_base,diff_vs_base_lo,diff_vs_base_hi,diff_vs_midtrain,diff_vs_midtrain_lo,diff_vs_midtrain_hi
+edge,1,base,0.4900,0.4288,0.5487,0.8488,,,,,,
+edge,4,base,0.6550,0.5900,0.7200,0.9400,,,,,,
+hard,1,base,0.0000,0.0000,0.0000,0.1663,,,,,,
+hard,4,base,0.0000,0.0000,0.0000,0.2550,,,,,,

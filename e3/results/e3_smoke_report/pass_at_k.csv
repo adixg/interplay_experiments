@@ -1,0 +1,5 @@
+checkpoint,band,metric,pass@1,pass@2,pass@4
+base,edge,strict,0.4900,0.5708,0.6550
+base,edge,em,0.8488,0.9050,0.9400
+base,hard,strict,0.0000,0.0000,0.0000
+base,hard,em,0.1663,0.2117,0.2550

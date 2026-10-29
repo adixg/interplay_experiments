@@ -1,0 +1,2 @@
+checkpoint,id_acc,ood_acc,total_acc,id_avg_loss,ood_avg_loss,total_avg_loss,id_avg_resp_len,ood_avg_resp_len,count_id,count_ood,count_total
+cpt0.8-rl-op11-14_uniform-200step-0.2RL,0.647626953125,0.0,0.647626953125,0.0,0.0,0.0,344.3467578125,0.0,102400,0,102400
