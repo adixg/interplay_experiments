@@ -1,0 +1,48 @@
+diff --git a/utils/solution_dependency_graph.py b/utils/solution_dependency_graph.py
+index 75068f5..24b478c 100644
+--- a/utils/solution_dependency_graph.py
++++ b/utils/solution_dependency_graph.py
+@@ -61,6 +61,25 @@ DEFINE_RE = re.compile(
+ )
+ TAG_RE = re.compile(r"<[^>]+>")
+ ALLOWED_EVAL_RE = re.compile(r"^[0-9+\-*/().\s]+$")
++# Characters an assignment's right-hand side may contain besides standalone letters.
++MATH_CHARS = set("0123456789+-*/()=. \t")
++
++
++def math_prefix(expr: str) -> str:
++    """Cut an expression at the first character that is not mathematical.
++
++    A letter only counts as a variable when no other letter stands next to it,
++    so the prose after an equation ("w = 40, so we have ...") is not read as inputs.
++    """
++    end = 0
++    for i, ch in enumerate(expr):
++        if ch.isalpha():
++            if (i > 0 and expr[i - 1].isalpha()) or (i + 1 < len(expr) and expr[i + 1].isalpha()):
++                break
++        elif ch not in MATH_CHARS:
++            break
++        end = i + 1
++    return expr[:end].strip()
+ 
+ 
+ @dataclass
+@@ -333,7 +352,7 @@ class SolutionParser:
+ 
+         for match in ASSIGNMENT_RE.finditer(step.raw_body):
+             target_var = match.group(1)
+-            expr = match.group(2).strip()
++            expr = math_prefix(match.group(2))
+             expr_eval = expr.split("=")[-1].strip()
+             source_deps = self._collect_dependencies(expr, intermediate_deps)
+ 
+@@ -351,7 +370,7 @@ class SolutionParser:
+                 if target_var == current_var:
+                     last_value = value
+             else:
+-                fallback_value = self._extract_last_number(match.group(0))
++                fallback_value = self._extract_last_number(expr)
+                 if fallback_value is not None:
+                     intermediate_values[target_var] = fallback_value
+                     self.variable_values[target_var] = fallback_value
